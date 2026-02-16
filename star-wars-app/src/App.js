@@ -11,6 +11,7 @@ export const App = () => {
     "https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg";
 
   // Fetch Akabab Star Wars character data once
+  // Minor change to trigger github pages
   React.useEffect(() => {
     fetch("https://akabab.github.io/starwars-api/api/all.json")
       .then((res) => res.json())
