@@ -6,12 +6,14 @@ body,
   padding: 0;
 }
 
-.marvel-background {
+.starwars-background {
   display: flex;
   justify-content: center; /* horizontal centering */
   align-items: center; /* vertical centering */
   flex-direction: column; /* stack children vertically */
 
+  background-color: #fff; /* White background */
+  background-image: none; /* Remove Star Wars image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +31,7 @@ body,
   pointer-events: none;
 }
 
-.Marvel-logo {
+.StarWars-logo {
   height: 25vmin;
   pointer-events: none;
 }

@@ -1,7 +1,7 @@
 import * as React from  'react';
 import '../MarvelSearchC.css'; // Assuming you have a CSS file for styling
 
-const MarvelSearchC= ({ onSearch }) => {
+const StarWarsSearch = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = React.useState('');
   const [isLoading, setIsLoading] = React.useState(false);
 
@@ -46,7 +46,7 @@ const MarvelSearchC= ({ onSearch }) => {
         <div className="input-wrapper">
           <input
             type="text"
-            placeholder="Search for a Marvel character..."
+            placeholder="Search for a Star Wars character..."
             className="search-input"
             value={searchTerm}
             onChange={handleInputChange}
@@ -79,4 +79,4 @@ const MarvelSearchC= ({ onSearch }) => {
   );
 };
 
-export default MarvelSearchC;
+export default StarWarsSearch;
