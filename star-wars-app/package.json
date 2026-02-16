@@ -2,6 +2,7 @@
   "name": "star-wars-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://boamusa.github.io/star-wars-app",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -22,6 +23,8 @@
     "start-backend": "node api/marvelProxy.js",
     "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
