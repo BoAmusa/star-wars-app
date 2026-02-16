@@ -28,8 +28,8 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "./marvel-app" # App source code path
-          api_location: "./marvel-app/api" # Api source code path - optional
+          app_location: "./star-wars-app" # App source code path
+          api_location: "./star-wars-app/api" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
         env:
           REACT_APP_MARVEL_API_KEY: ${{ secrets.MARVEL_API_KEY }}
